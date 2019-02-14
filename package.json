@@ -1,0 +1,31 @@
+{
+  "name": "twilio-mn-wild",
+  "version": "1.0.0",
+  "description": "Twilio app to send you the NHL score for the Minnesota Wild.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkatka/twilio-mn-wild.git"
+  },
+  "keywords": [
+    "twilio",
+    "node",
+    "javascript",
+    "mn",
+    "wild",
+    "nhl"
+  ],
+  "author": "Rick Katka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkatka/twilio-mn-wild/issues"
+  },
+  "homepage": "https://github.com/rkatka/twilio-mn-wild#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "twilio": "^3.28.0"
+  }
+}
