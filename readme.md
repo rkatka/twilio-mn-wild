@@ -2,4 +2,4 @@
 
 This is a demo app showing an example of how to use the Twilio node module with Express.
 
-To run this app, provide your Twilio credentials in a `config.js` file with the information provided in the sample config file at the project root.
+To run this app, provide your Twilio credentials in a `config.js` file with the information provided in the example config file at the project root.
