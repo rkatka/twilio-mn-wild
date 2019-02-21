@@ -1,9 +1,9 @@
-var express = require('express');
-var https = require('https');
-var app = express();
-var config = require('./config');
+const express = require('express');
+const https = require('https');
+const config = require('./config');
 const client = require('twilio')(config.accountSid, config.authToken);
 
+const app = express();
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
